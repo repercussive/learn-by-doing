@@ -1,13 +1,17 @@
+import { Center, Title } from '@mantine/core'
 import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Learn By Doing</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Hello, world!</h1>
-    </div>
+
+      <Center sx={{ height: '10rem' }}>
+        <Title>Hello, world!</Title>
+      </Center>
+    </>
   )
 }
