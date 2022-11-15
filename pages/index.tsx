@@ -9,7 +9,6 @@ export default function Home() {
         <title>Learn by Doing</title>
       </Head>
 
-
       <Container maw="50rem" my="md">
         <Title>📈 Learn by Doing</Title>
         <Text>
