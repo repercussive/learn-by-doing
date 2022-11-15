@@ -24,7 +24,7 @@ export default function FetchFromApiDemo() {
         <title>Random Dog</title>
       </Head>
 
-      <Flex mt="md" mx="auto" align="center" justify="center" direction="column">
+      <Flex mt="lg" mx="auto" align="center" justify="center" direction="column">
         <Title align="center">Random Dog 🐶</Title>
         <Box my="lg">
           <Image height={300} radius="md" src={imageUrl} />
